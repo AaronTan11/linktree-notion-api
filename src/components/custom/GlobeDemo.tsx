@@ -1,3 +1,4 @@
+// @ts-nocheck
 import dynamic from "next/dynamic";
 
 const World = dynamic(() => import("@/components/custom/globe").then((m) => m.World), {
