@@ -1,4 +1,6 @@
 import { FlipWords } from "@/components/custom/flip-words";
+import { Globe } from "@/components/custom/globe";
+import GlobeDemo from "@/components/custom/GlobeDemo";
 import Notion from "@/components/custom/Notion";
 import { Vortex } from "@/components/custom/vortex";
 
@@ -20,11 +22,13 @@ export default function Home() {
 						Welcome to my Personal &quot;Linktree&quot;
 					</p>
 					<div className='text-white text-sm md:text-2xl max-w-xl mt-6 text-center'>
-						I kinda <FlipWords words={words} className='text-white' />
+						I kinda <FlipWords words={words} className='text-white space-x-1' />
 					</div>
 					<div className='flex flex-col sm:flex-row items-center gap-4 mt-6'>
 						<Notion />
 					</div>
+
+					<GlobeDemo />
 				</Vortex>
 			</div>
 		</>
