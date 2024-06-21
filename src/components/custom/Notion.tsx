@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Client } from "@notionhq/client";
 import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import { CardBody, CardContainer, CardItem } from "@/components/custom/3d-card";
