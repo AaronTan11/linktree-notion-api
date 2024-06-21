@@ -17,7 +17,7 @@ export default function Home() {
 				>
 					<h2 className='text-white text-2xl md:text-6xl font-bold text-center'>Tan Wei Hup</h2>
 					<p className='text-white text-sm md:text-2xl max-w-xl mt-6 text-center'>
-						Welcome to my Personal "Linktree"
+						Welcome to my Personal &quot;Linktree&quot;
 					</p>
 					<div className='text-white text-sm md:text-2xl max-w-xl mt-6 text-center'>
 						I kinda <FlipWords words={words} className='text-white' />
